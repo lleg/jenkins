@@ -10,4 +10,12 @@ libraryDependencies ++= Seq(
   javaJdbc,
   cache,
   javaWs
-)
+}
+
+enablePlugins(DebianPlugin)
+
+maintainer := "Oleg email@addres.ru"
+
+packageSummary := "My custom package"
+
+packageDescription := "Package"
