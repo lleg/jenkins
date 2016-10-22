@@ -10,7 +10,7 @@ libraryDependencies ++= Seq(
   javaJdbc,
   cache,
   javaWs
-}
+)
 
 enablePlugins(DebianPlugin)
 
